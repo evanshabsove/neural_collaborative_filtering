@@ -17,9 +17,11 @@ We use Keras with Theano as the backend.
 
 ## For AIDI-1002 Grading
 
-The instructions on how to run are the same as the original repo. All I have done is update the models to run on updated Keras and Python, as well as cleaning up a few un-used imports.
+The instructions on how to run are the same as the original repo. All I have done is update the models to run on updated Keras and Python, as well as cleaning up a few unused imports.
 
-If you are running these locally I recommend lowering the epochs to 1 in order to increase the speed. I ran all of these in my anaconda3 virtual env. I have also uploaded my ipynb notebook if you would like to go through that.
+If you are running these locally, I recommend lowering the epochs to 1 in order to increase the speed. I ran all of these in my anaconda3 virtual env. I have also uploaded my ipynb notebook if you would like to go through that.
+
+I got frusterated with the commit histroy as well b/c I had my datafiles in that were not getting cleared out in cache so I just squashed and merged everything. The main contribution was making the files runable in an updated Python.
 
 ## Example to run the codes.
 The instruction of commands has been clearly stated in the codes (see the  parse_args function).
